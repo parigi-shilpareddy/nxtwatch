@@ -1,0 +1,80 @@
+.logout {
+  border-radius: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  background-color: transparent;
+  margin: 0px;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+  .logout {
+    display: none;
+  }
+}
+.icon {
+  font-size: 20px;
+}
+.dark-logout {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.light-logout {
+  border: 1px solid #4e9ef4;
+  color: #4e9ef4;
+}
+.dark-icon {
+  color: #ffffff;
+}
+.dark-popup {
+  background-color: #212121;
+  color: #ffffff;
+}
+.light-popup {
+  color: #275888;
+  background-color: #ffffff;
+}
+.text-container {
+  text-align: center;
+  width: 35vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+  .text-container {
+    width: 100%;
+  }
+}
+.button {
+  height: 40px;
+  width: 100px;
+  margin: 15px;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+}
+.outline {
+  border: 1px solid #758290;
+  color: #758290;
+}
+.color {
+  background-color: #2082f2;
+  color: #ffffff;
+  border: 1px solid #2082f2;
+}
+.icon-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
